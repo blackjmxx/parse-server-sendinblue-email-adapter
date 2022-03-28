@@ -1,5 +1,5 @@
 {
-  "name": "@rhapsody/parse-server-sendinblue-email-adapter",
+  "name": "parse-server-sendinblue-email-adapter-v2",
   "version": "1.0.6",
   "description": "Used to send Parse Server password reset and validation emails through SendinBlue",
   "main": "index.js",

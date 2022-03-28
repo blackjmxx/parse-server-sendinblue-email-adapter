@@ -106,7 +106,7 @@ var sendinBlueAdapter = options => {
       var smtpApi = new SendinBlueSdk.TransactionalEmailsApi();
       var sendEmail = new SendinBlueSdk.SendSmtpEmail(); // SendSmtpEmail | Values to send a transactional email
 
-      sendEmail.to = [ {"name":"Jimmy", "email":email} ];
+      sendEmail.to = [ {"email":email} ];
       sendEmail.templateId = templateId;
       sendEmail.params = {
         "APP_NAME": mail.appName,
